@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+}
+
+.teachers{
+  background-color: lightgray;
+  width: 20%;
+  text-align: center;
+  margin: 0 40%;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.pm{
+  background: lightgreen;
+  width: 20%;
+  text-align: center;
+  margin: 0 40%;
+  padding: 10px;
+  border-bottom: 1px solid green;
+}
+
+
+.teachers:first-child {
+  margin-top: 100px;
+}
